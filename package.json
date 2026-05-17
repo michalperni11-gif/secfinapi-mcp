@@ -1,0 +1,38 @@
+{
+  "name": "secfinapi-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for SECfinAPI — standardized SEC EDGAR financial data (income statements, balance sheets, cash flow, 50+ ratios) as tools for Claude, Cursor and other AI assistants.",
+  "type": "module",
+  "bin": {
+    "secfinapi-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "sec",
+    "edgar",
+    "financial-data",
+    "fundamentals",
+    "claude"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0"
+  }
+}
