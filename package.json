@@ -17,12 +17,18 @@
   "keywords": [
     "mcp",
     "model-context-protocol",
+    "mcp-server",
     "sec",
     "edgar",
     "financial-data",
     "fundamentals",
-    "claude"
+    "stock-data",
+    "income-statement",
+    "balance-sheet",
+    "claude",
+    "cursor"
   ],
+  "homepage": "https://www.secfinapi.com/mcp",
   "engines": {
     "node": ">=18"
   },
